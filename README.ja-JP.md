@@ -1,10 +1,10 @@
-English | [简体中文](./README.zh-CN.md) | [Русский](./README.ru-RU.md)  | [Türkçe](./README.tr-TR.md)  | [日本語](./README.ja-JP.md)
+[English](./README.md) | [简体中文](./README.zh-CN.md) | [Русский](./README.ru-RU.md)  | [Türkçe](./README.tr-TR.md)  | 日本語
 
 <h1 align="center">Ant Design Pro</h1>
 
 <div align="center">
 
-An out-of-box UI solution for enterprise applications as a React boilerplate.
+独創的な業務システムのUIを解決するためのReactボイラープレート。
 
 [![Build With Umi](https://img.shields.io/badge/build%20with-umi-028fe4.svg?style=flat-square)](http://umijs.org/)
 [![Build Status](https://dev.azure.com/ant-design/ant-design-pro/_apis/build/status/ant-design.ant-design-pro?branchName=master)](https://dev.azure.com/ant-design/ant-design-pro/_build/latest?definitionId=1?branchName=master)
@@ -17,85 +17,85 @@ An out-of-box UI solution for enterprise applications as a React boilerplate.
 
 </div>
 
-- Preview: http://preview.pro.ant.design
-- Home Page: http://pro.ant.design
-- Documentation: http://pro.ant.design/docs/getting-started
-- ChangeLog: http://pro.ant.design/docs/changelog
-- FAQ: http://pro.ant.design/docs/faq
-- Mirror Site in China: http://ant-design-pro.gitee.io
+  - プレビュー: http://preview.pro.ant.design
+  - ホームページ: http://pro.ant.design
+  - ドキュメント: http://pro.ant.design/docs/getting-started
+  - 変更ログ: http://pro.ant.design/docs/changelog
+  - FAQ: http://pro.ant.design/docs/faq
+  - 中国のミラーサイト: http://ant-design-pro.gitee.io
 
-## 2.0 Released Now! 🎉🎉🎉
+## 2.0がリリースされました 🎉🎉🎉
 [Announcing Ant Design Pro 2.0.0](https://medium.com/ant-design/beautiful-and-powerful-ant-design-pro-2-0-release-51358da5af95)
 
-## Translation Recruitment :loudspeaker:
+## 翻訳の募集 :loudspeaker:
 
-We need your help: https://github.com/ant-design/ant-design-pro/issues/120
+私たちはあなたの助けを必要としています。: https://github.com/ant-design/ant-design-pro/issues/120
 
-## Features
+## 特徴
 
-- :gem: **Neat Design**: Follow [Ant Design specification](http://ant.design/)
-- :triangular_ruler: **Common Templates**: Typical templates for enterprise applications
-- :rocket: **State of The Art Development**: Newest development stack of React/umi/dva/antd
-- :iphone: **Responsive**: Designed for variable screen sizes
-- :art: **Theming**: Customizable theme with simple config
-- :globe_with_meridians: **International**: Built-in i18n solution
-- :gear: **Best Practices**: Solid workflow to make your code healthy
-- :1234: **Mock development**: Easy to use mock development solution
-- :white_check_mark: **UI Test**: Fly safely with unit and e2e tests
+  - :gem: **きちんとしたデザイン**: [Ant Design specification](http://ant.design/) に従ってくださ  い。
+  - :triangular_ruler: **共通のテンプレート**: 業務システム用のテンプレート
+  - :rocket: **現状のアート開発**: `React/umi/dva/antd` の最新開発スタック
+  - :iphone: **レスポンシブ**: さまざまな画面サイズ用の設計
+  - :art: **テーマ**: シンプルな設定でカスタマイズ可能なテーマ
+  - :globe_with_meridians: **国際化**: 国際化の解決策を内蔵
+  - :gear: **ベストプラクティス**: コードを美しくするための正しいワークフロー
+  - :1234: **モック開発**: 使いやすいモック開発
+  - :white_check_mark: **UIテスト**: ユニットテストとe2eテスト
 
-## Templates
+## テンプレート
 
 ```
-- Dashboard
-  - Analytic
-  - Monitor
-  - Workspace
-- Form
-  - Basic Form
-  - Step Form
-  - Advanced From
-- List
-  - Standard Table
-  - Standard List
-  - Card List
-  - Search List (Project/Applications/Article)
-- Profile
-  - Simple Profile
-  - Advanced Profile
-- Account
-  - Account Center
-  - Account Settings
-- Result
-  - Success
-  - Failed
-- Exception
-  - 403
-  - 404
-  - 500
-- User
-  - Login
-  - Register
-  - Register Result
+- ダッシュボード
+  - アナリティクス
+  - モニター
+  - ワークスペース
+- 形
+  - 基本フォーム
+  - ステップフォーム
+  - 高度なフォーム
+ - リスト
+  - スタンダードテーブル
+  - スタンダードリスト
+  - カードリスト
+  - 検索リスト（プロジェクト/アプリケーション/記事）
+ - プロフィール
+  - 簡単なプロフィール
+  - 高度なプロファイル
+ - アカウント
+  - アカウントセンター
+  - アカウント設定
+ - 結果
+  - 成功
+  - 失敗
+ - 例外
+  - 403
+  - 404
+  - 500
+ - ユーザー
+  - ログイン
+  - 登録
+  - 登録結果
 ```
 
-## Usage
+## 使用法
 
-### Use bash
+### bashを使う方法
 
 ```bash
 $ git clone https://github.com/ant-design/ant-design-pro.git --depth=1
 $ cd ant-design-pro
 $ npm install
-$ npm start         # visit http://localhost:8000
+$ npm start         # http://localhost:8000 を開く
 ```
 
-### Use by docker
+### Dockerを使う方法
 
 ```bash
-# preview
+# プレビュー
 $ docker pull antdesign/ant-design-pro
 $ docker run -p 80:80 antdesign/ant-design-pro
-# open http://localhost
+# http://localhost を開く
 
 # dev
 $ npm run docker:dev
@@ -111,26 +111,28 @@ $ npm run docker-prod:dev
 $ npm run docker-prod:build
 ```
 
-### Use Gitpod
+### Gitpodを使う方法
 
-Open the project in Gitpod (free online dev environment for GitHub) and start coding immediately.
+Gitpod（GitHub用の無料オンライン開発環境）でプロジェクトを開き、すぐにコーディングを開始できます。
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ant-design/ant-design-pro)
 
-More instructions at [documentation](http://pro.ant.design/docs/getting-started).
+その他の指示は [ドキュメント](http://pro.ant.design/docs/getting-started) を確認してください。
 
-## Browsers support
+## サポートするブラウザー
 
-Modern browsers and IE11.
+モダンなブラウザとIE11。
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Opera |
 | --------- | --------- | --------- | --------- | --------- |
-| IE11, Edge| last 2 versions| last 2 versions| last 2 versions| last 2 versions
+| IE11, Edge | 最新版から2バージョン | 最新版から2バージョン | 最新版から2バージョン | 最新版から2バージョン |
 
-## Contributing
+## 貢献する
 
-Any type of contribution is welcome, here are some examples of how you may contribute to this project:
+どんな種類の貢献でも大歓迎です。あなたがこのプロジェクトに貢献できる方法のいくつかの例はここにあります。：
 
-- Use Ant Design Pro in your daily work.
-- Submit [issues](http://github.com/ant-design/ant-design-pro/issues) to report bugs or ask questions.
-- Propose [pull requests](http://github.com/ant-design/ant-design-pro/pulls) to improve our code.
+  - 毎日の仕事にAnt Design Proを使用すること。
+  - 報告すること。 [issues](http://github.com/ant-design/ant-design-pro/issues) にバグ報告や質問をしてください。
+  - 更新すること。 改善を、[pull requests](http://github.com/ant-design/ant-design-pro/pulls) で送ってください。
+
+[![DevDependencies](https://img.shields.io/david/dev/ant-design/ant-design-pro.svg)](https://david-dm.org/ant-design/ant-design-pro?type=dev)
